@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+div.comprarbtn{
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #ee3680;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 7px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    height: 53px;
+    position: relative;
+    text-align: right;
+}
+
+header img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    width: 70px;
+    height: 33px;
+}
+
+header .imenu{
+    color: white;
+    margin-right: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+div.banner{
+    background-image: url(images/banner-mobile.jpg);
+    height: 205px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.container-compartilhe{
+    position: relative;
+    height: 30px;
+    text-align: right;
+}
+
+span.ishare{
+    background: white;
+    border: 1px solid #cdcdcd;
+    width: fit-content;
+    border-radius: 50%;
+    color: red;
+    padding: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+main{
+    padding-left: 10px;
+}
+
+div.evntnametype{
+    margin-bottom: 20px;
+}
+
+h1.evntname{
+    font-size: 20px;
+    color: #ee3680;
+    margin-bottom: 5px;
+}
+
+p.evnttype{
+    font-size: 16px;
+    color: #6900b2;
+}
+
+div.divevntinfo{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+div.divevntinfo span{
+    font-size: 20px;
+    color: #ee3680;
+    margin-right: 10px;
+}
+
+p.evntinfotext{
+    font-size: 13px;
+}
+
+button.btnvlocal{
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 25px;
+    width: 130px;
+    color: #6900b2;
+    border: 1px solid #6900b2;
+    background-color: white;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+section.sdp p{
+    display: inline;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+section.sdptext{
+    height: 800px;
+    background: #dcdcdf95;
+}
+
+div.tabs-content-item p{
+    font-size: 10px;
+    padding: 10px;
+}
