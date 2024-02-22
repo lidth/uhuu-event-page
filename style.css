@@ -49,8 +49,9 @@ header .imenu{
 div.banner{
     background-image: url(images/banner-mobile.jpg);
     height: 205px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    border: 1px solid;
 }
 
 div.container-compartilhe{
@@ -67,6 +68,7 @@ span.ishare{
     color: red;
     padding: 5px;
     margin-right: 20px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
